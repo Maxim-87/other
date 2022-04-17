@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-
-import {Hover} from "./Components/Hover";
-import {Input} from "./Components/Input";
-import {List} from "./Components/List";
+import {Request} from "./Components/Request";
 
 function App() {
 
     return (
         <div className="App">
-            <List/>
+            <Request/>
+            {/*<List/>*/}
             {/*<Hover/>*/}
             {/*<Input/>*/}
             {/*<LocalStorage/>*/}
